@@ -1,0 +1,3 @@
+defunt.jpg   -> portrait affiché en ovale sur l'accueil
+galerie-1.jpg, galerie-2.jpg -> photos de la galerie
+Pour ajouter des photos : copie-les ici (ex. galerie-3.jpg) puis ajoute leur chemin dans la liste "galerie" au début de script.js.
