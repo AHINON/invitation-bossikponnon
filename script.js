@@ -27,7 +27,7 @@ const CONFIG = {
     ],
     cloture: "Merci, Maman, pour tout ce que tu nous as transmis."
   },
-  galerie: ["photos/galerie-1.jpg","photos/galerie-2.jpg"],   // ajoute d’autres photos ici (4 à 6 recommandées)
+  galerie: ["galerie-1.jpg","galerie-2.jpg"],   // ajoute d’autres photos ici (4 à 6 recommandées)
   programme: [
     { titre: "Veillée",              jour: "", heure: "", detail: "" },
     { titre: "Cérémonie religieuse", jour: "", heure: "", detail: "" },
