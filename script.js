@@ -7,7 +7,7 @@ const CONFIG = {
     nomFamille: "BOSSIKPONNON",
     prenoms: "Nah",
     initiales: "BN",
-    dateNaissance: "",                    // ex : "3 mars 1925" (vide = masquée)
+    dateNaissance: "",
     dateDeces: "21 août 2026",
     age: "dans sa 102ᵉ année",
     hommage: "Une longue vie de foi, de dignité et d’amour, désormais dans la paix du Seigneur."
@@ -15,30 +15,29 @@ const CONFIG = {
   famille: "BOSSIKPONNON",
   organisateur: {
     nom: "Pélagie D. KOVENON",
-    conjoint: "Rév. Noël M. AHINON",     // vide = formule adaptée automatiquement
+    conjoint: "Rév. Noël M. AHINON",
     conjointTitre: "Président du secteur de Covè / Koguédé"
   },
   histoire: {
-    intro: "Plus d’un siècle de vie : voici quelques pages d’un parcours que nous portons dans nos cœurs.",
+    intro: "Plus de cent ans de vie, de courage et de dignité. Une longue route que nous avons eu la grâce de parcourir à ses côtés.",
     etapes: [
-      { titre: "Ses origines", texte: "Écris ici quelques lignes sur l’enfance et les racines de Maman." },
-      { titre: "Sa vie de famille", texte: "Écris ici le mariage, les enfants, les petits-enfants et les arrière-petits-enfants." },
-      { titre: "Ses valeurs et ses souvenirs", texte: "Écris ici ce qui la caractérisait : sa foi, son travail, ses mots, ses habitudes." }
+      { titre: "Un siècle de vie", texte: "Elle a vu grandir les générations, transmis, aimé et tenu bon. Une longévité rare, que nous recevons comme une bénédiction." },
+      { titre: "Ce qu’elle nous laisse", texte: "Des valeurs de respect, de travail et de partage, et une famille rassemblée autour de son souvenir." },
+      { titre: "Notre promesse", texte: "Honorer sa mémoire en gardant vivantes les valeurs qu’elle nous a transmises." }
     ],
-    cloture: "Merci, Maman, pour tout ce que tu nous as transmis."
+    cloture: "« L’Éternel est mon berger : je ne manquerai de rien. » Psaume 23:1"
   },
-  galerie: ["galerie-1.jpg","galerie-2.jpg"],   // ajoute d’autres photos ici (4 à 6 recommandées)
+  galerie: ["galerie-1.jpg","galerie-2.jpg"],
   programme: [
-    { titre: "Veillée",              jour: "", heure: "", detail: "" },
-    { titre: "Cérémonie religieuse", jour: "", heure: "", detail: "" },
-    { titre: "Levée du corps",       jour: "", heure: "", detail: "" },
-    { titre: "Inhumation",           jour: "", heure: "", detail: "" },
-    { titre: "Remerciements",        jour: "", heure: "", detail: "" }
+    { titre: "Veillée de prière", jour: "Jeudi 29 octobre 2026", heure: "20h00", detail: "Prière et chants animés par la chorale et Asaph de l’église protestante méthodiste." },
+    { titre: "Retrait du corps", jour: "Vendredi 30 octobre 2026", heure: "08h00", detail: "À la morgue de Mougnon." },
+    { titre: "Réception des invités", jour: "Vendredi 30 octobre 2026", heure: "13h00", detail: "À Domè Houandougon, à côté de l’église protestante méthodiste de Domè." },
+    { titre: "Inhumation", jour: "Samedi 31 octobre 2026", heure: "08h00", detail: "Inhumation du corps." }
   ],
   lieu: {
-    nom: "",                              // ex : "Domicile familial"
-    adresse: "",                          // ex : "Quartier X, Covè"
-    recherche: "Covè, Bénin"              // texte utilisé pour la carte et l’itinéraire
+    nom: "Domè Houandougon",
+    adresse: "À côté de l’église protestante méthodiste de Domè",
+    recherche: "Houandougon, Domè, Bénin"
   },
   infos: [
     { titre: "Tenue",         texte: "Une tenue sobre et digne est souhaitée." },
@@ -50,8 +49,8 @@ const CONFIG = {
     { affiche: "01 97 74 25 58", tel: "+2290197742558" }
   ],
   presence: {
-    whatsapp: "2290197101325",            // numéro qui reçoit les confirmations
-    dateLimite: ""                        // ex : "10 septembre 2026"
+    whatsapp: "2290197101325",
+    dateLimite: ""
   },
   remerciement: "La famille remercie chaleureusement toutes les personnes qui lui témoignent leur soutien et leur affection."
 };
