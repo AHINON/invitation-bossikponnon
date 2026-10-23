@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Cérémonies funéraires – BOSSIKPONNON Nah</title>
+<meta name="description" content="Invitation aux cérémonies funéraires de BOSSIKPONNON Nah">
+<meta name="theme-color" content="#0e0e10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500&family=Cinzel:wght@400;500&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+<div id="intro" class="intro">
+  <div class="env" id="env">
+    <div class="env-back"></div>
+    <div class="card-in"><p class="cin">Cérémonies funéraires</p><p class="cname" id="introName"></p></div>
+    <div class="env-front"></div>
+    <div class="flap"></div>
+    <div class="seal" id="seal"></div>
+  </div>
+  <button id="openBtn" class="btn" type="button">Ouvrir notre invitation</button>
+</div>
+
+<main id="site" class="site">
+  <section id="accueil" class="hero">
+    <div class="hero-bg" style="background-image:url(photos/defunt.jpg)"></div>
+    <div class="hero-shade"></div>
+    <div class="hero-in">
+      <img id="heroImg" class="portrait" src="photos/defunt.jpg" alt="Portrait de la défunte">
+      <p class="small" id="heroSmall"></p>
+      <h1 class="name"><span id="nomF"></span><br><em id="prenoms"></em></h1>
+      <p class="tribute" id="tribute"></p>
+      <p class="dates" id="dates"></p>
+      <p class="invite" id="invite"></p>
+      <a class="scroll" href="#histoire" aria-label="Défiler"></a>
+    </div>
+  </section>
+
+  <section id="histoire" class="sec light">
+    <h2 class="title" data-words>Notre histoire</h2>
+    <div id="histoireBody" class="body"></div>
+  </section>
+
+  <section id="galerie" class="sec pearl">
+    <h2 class="title" data-words>Galerie</h2>
+    <div id="galerieBody" class="gallery"></div>
+  </section>
+
+  <section id="programme" class="sec dark">
+    <h2 class="title" data-words>Le programme</h2>
+    <ol id="progBody" class="prog"></ol>
+  </section>
+
+  <section id="lieu" class="sec light">
+    <h2 class="title" data-words>Le lieu</h2>
+    <div id="lieuBody" class="body"></div>
+  </section>
+
+  <section id="infos" class="sec pearl">
+    <h2 class="title" data-words>Informations pratiques</h2>
+    <div id="infosBody" class="infos"></div>
+  </section>
+
+  <section id="presence" class="sec light">
+    <h2 class="title" data-words>Confirmer ma présence</h2>
+    <div id="presenceBody" class="body"></div>
+  </section>
+
+  <footer class="foot">
+    <p class="small">À jamais dans nos cœurs</p>
+    <p class="mono" id="footInit"></p>
+    <p class="thanks" id="thanks"></p>
+    <p class="by" id="by"></p>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
